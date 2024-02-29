@@ -1,2 +1,2 @@
 # message-board
-The Odin Project Building Message Board Project
+The Odin Project Building Message Board Project using Express

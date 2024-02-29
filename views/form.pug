@@ -1,0 +1,16 @@
+extends layout 
+block content 
+h1 = title 
+p = headline 
+a(href='/') Back to ${title.toLowerCase()}
+
+form(method='POST' action='/new' autocomplete = "off")
+
+
+    label (for="name") Name: 
+    input(type="text" id="name" name="name")
+
+    label (for="message") Message:
+    textarea(id="message" name="message" rows="5" cols="15")
+
+    input(type="submit" value="Submit") 

@@ -1,0 +1,14 @@
+extends layout 
+block content 
+
+h1 = title 
+p Welcome to the ${title}!!
+a(href='/new') New Message 
+
+
+ul 
+   each val in messages 
+     li 
+        p User: ${val.user}
+        p Message: ${val.text}
+        p Date Added: ${val.added}
